@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+}
+.header {
+    text-align: center;
+    margin: 0 auto;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-left: 460px;
+    margin-top: 7px;
+}
+li {
+    margin-left: 35px;
+}
+.content {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+}
+.monan {
+    margin-left: 5px;
+    width: 2000px;
+}
+h3 {
+    margin-top: 15px;
+    background-color: #00ffff;
+}
+p {
+    margin-top: 10px;
+}
+.monanimg {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.chedauxanh {
+    width: 650px;
+    height: 440px;
+    margin-left: 30px;
+}
+.chesenlongnhan {
+    width: 650px;
+    height: 440px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.suongsaonuoccotdua {
+    width: 650px;
+    height: 375px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.traicayto {
+    width: 650px;
+    height: 470px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.luuy {
+    color: red;
+}

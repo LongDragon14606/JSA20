@@ -1,0 +1,46 @@
+* {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 1px;
+}
+.header {
+    display: flex;
+}
+.dangki-dangnhap {
+    margin-left: 175px;
+    display: flex;
+}
+button {
+    width: 84px;
+    height: 42px;
+}
+.button2 {
+    color: #F54748;
+}
+.first-part {
+    align-items: center;
+    display: flex;
+}
+.button {
+    width: 125px;
+    height: 35px;
+    color: #F54748;
+}
+.content {
+    width: 256px;
+    height: 65px;
+}
+.body-img {
+    margin-left: 200px;
+}
+.sp-text {
+    text-align: center;
+}
+.icon2 {
+    display: flex;
+}

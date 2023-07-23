@@ -1,0 +1,12 @@
+<style>
+    .hover:hover {
+        color: aquamarine;
+    }
+    .active:active {
+        color: bisque;
+    }
+    .focus:focus {
+        color: aqua;
+    }
+
+</style>

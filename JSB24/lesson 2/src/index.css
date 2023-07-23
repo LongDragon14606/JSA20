@@ -1,0 +1,53 @@
+<style>
+/* chọn tất cả các thẻ có trong html*{ */
+            /* sủ dụng * để clear đi các thuộc tính thừa */
+            * {
+                margin: 0;
+                padding: 0;
+            }   
+        .container {
+            margin: 0 auto;
+            /* phải khởi tạo một chiều rộng cho trang web */
+            width: 1440px;
+            /* khởi tạo chiều dài cho trang web */
+            height: auto;    
+        }
+        .logo {
+             /* dùng để căn giữa phần từ bên trong nó */
+            text-align: center;     
+        }
+        .menu ul {
+            /* sẽ tác động và sử dụng vào thằng "cha" là thẻ chứa các thẻ nằm ngang */
+            display: flex;
+            /* thiết lập chiều ngang */
+            width: 650px;
+            margin: 0 auto;
+        }
+        li {
+            list-style: none;
+            margin-left: 32px;
+        }
+        .text-content {
+            text-align: center;
+        }
+        .img-content {
+            display: flex;
+            /* thuộc tính đi kèm với flex , giúp cho căn đều các phần tử một khoảng cách bằng nhau */
+            justify-content: space-between;
+            margin: 16px 0;
+        }
+        .top-content {
+            display: flex;
+            align-items: center;
+        }
+        .imgcontent2 { 
+            margin-left: 736px;
+        }
+        .top-content button {
+            width: 323px;
+            height: 55px;
+            background-color :#0E4C67;
+            color: #ffffff;
+        }
+        
+        </style>

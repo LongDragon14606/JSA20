@@ -1,0 +1,35 @@
+
+<style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .first-part {
+                margin: 0 auto;
+                width: 1440px;
+                height: auto;
+            }
+            .logo {
+                text-align: center;
+            }
+            .menu ul {
+                display: flex;
+                width: 650px;
+                margin: 0 auto;
+            }
+            li {
+                list-style: none;
+                margin-left: 32px;
+            }
+            .main-content {
+                display: flex;
+                justify-content: space-between;
+            }
+            .note {
+                width: 128px;
+                height: 128px;
+                text-align: center;
+                background-color: #0E4C67;
+                color: #ffffff;
+            }
+            </style>
