@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "tk": "admin",
+      "password": "14062006",
+      "Email": "abc@gmail.com",
+      "role": 1,
+      "id": 1
+    },
+    {
+      "tk": "abcdef",
+      "password": "1234",
+      "Email": "abcdef1234@gmail.com",
+      "role": 2,
+      "id": 2
+    }
+  ],
+  "product": [
+    {
+      "title": "Mặt nạ vô diện",
+      "text": "Giá Tiền : 15.000VNĐ"
+    }
+  ]
+}

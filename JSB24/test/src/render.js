@@ -1,34 +1,65 @@
 const ListArrPost = [
     {
-        item : "img/image 47 (1).jpg",
-        title : "VALORANT - Thông Tin Bản Cập Nhật 4.03",
-        name : "Cập nhật trò chơi"
+        img1 : "img/Mask Group (1).png",
+        title : "Fresh Lime Roasted Salmon",
+        img2 : "img/Vector (1).png",
+        text1 : "30 minutes",
+        img3: "img/Vector (2).png",
+        img4: "img/Vector (3).png",
+        text2 : "Fish"
     },
     {
-        item : "img/image 47 (1).jpg",
-        title : "VALORANT - Thông Tin Bản Cập Nhật 4.03",
-        name : "Cập nhật trò chơi"
+        img1 : "img/Mask Group (2).png",
+        title : "The Best Easy One Pot Chicken and Rice",
+        img2 : "img/Vector (1).png",
+        text1 : "30 minutes",
+        img3: "img/Vector (2).png",
+        img4: "img/Vector (3).png",
+        text2 : "Snack"
     },
     {
-        item : "img/image 47 (1).jpg",
-        title : "VALORANT - Thông Tin Bản Cập Nhật 4.03",
-        name : "Cập nhật trò chơi"
+        img1 : "img/Mask Group (3).png",
+        title : "Fresh and Healthy Mixed Mayonnaise ",
+        img2 : "img/Vector (1).png",
+        text1 : "30 minutes",
+        img3: "img/Vector (2).png",
+        img4: "img/Vector (3).png",
+        text2 : "Healthy"
     },
     {
-        item : "img/image 47 (1).jpg",
-        title : "VALORANT - Thông Tin Bản Cập Nhật 4.03",
-        name : "Cập nhật trò chơi"
+        img1 : "img/Mask Group (4).png",
+        title : "The Creamiest Creamy Chicken",
+        img2 : "img/Vector (1).png",
+        text1 : "30 minutes",
+        img3: "img/Vector (2).png",
+        img4: "img/Vector (3).png",
+        text2 : "Noodles"
+    },
+    {
+        img1 : "img/Mask Group (5).png",
+        title : "Fruity Pancake with Orange & Blueberry",
+        img2 : "img/Vector (1).png",
+        text1 : "30 minutes",
+        img3: "img/Vector (2).png",
+        img4: "img/Vector (3).png",
+        text2 : "Sweet"
     }
 ];
 function renderPost() {
     let render = document.querySelector(".new")
     for (let item of ListArrPost) {
     render.innerHTML += `
-    <div class="content">
-                <img src="${item.img}" alt="">
-                <p>${item.name}</p>
-                <h4>${item.title}</h4>
-            </div>
+    <div class="list-food">
+        <img src="${item.img1}" alt="">
+        <h3>${item.title}</h3>
+    </div>
+    <div class="icon2">
+        <img src="${item.img2}" alt="">
+        <p>${item.text1}</p>
+        <img src="${item.img3}" alt="">
+        <img src="${item.img4}" alt="">
+        <p>${item.text2}</p>
+    </div>
             `
     }
 }
